@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загрузки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Кнопка открытия меню -->
+<button class="sidebar-toggle">☰</button>
+
+<!-- Боковая менюшка -->
+<div class="sidebar">
+    <ul>
+        <li><a href="Profil.html">Профиль</a></li>
+        <li><a href="Settings.html">Настройки</a></li>
+        <li><a href="Download.html">Загрузки</a></li>
+        <li><a href="feedback.html">Отзывы</a></li>
+        <li><a href="#" id="logout">Выход</a></li>
+    </ul>
+</div>
+
+    <div class="sidebar">
+        <button class="sidebar-toggle">☰</button>
+        <div class="sidebar-menu">
+            <a href="Profil.html">Профиль</a>
+            <a href="Settings.html">Настройки</a>
+            <a href="Download.html" class="active">Загрузки</a>
+            <a href="https://www.youtube.com/@FrankiTeam" target="_blank">YouTube</a>
+            <a href="https://t.me/+ONbveZ793EJiMzli" target="_blank">Telegram</a>
+            <a href="index.html" id="logout">Выход</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="download-container">
+            <h1>Загрузки</h1>
+            <div class="download-content">
+                <h2>FrankiMobile</h2>
+                <button id="startDownload" class="btn">Скачать</button>
+                <div class="download-progress-container" style="display: none;">
+                    <div class="download-progress-bar"></div>
+                    <div class="download-progress-text">0%</div>
+                    <div class="download-time">Осталось около: ~2 часа</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

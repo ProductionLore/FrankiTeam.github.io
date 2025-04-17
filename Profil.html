@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-purple-theme">
+
+    <!-- Кнопка для открытия меню -->
+    <button class="sidebar-toggle">☰</button>
+
+    <!-- Боковое меню -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="Profil.html">Профиль</a></li>
+            <li><a href="Settings.html">Настройки</a></li>
+            <li><a href="Download.html">Загрузки</a></li>
+            <li><a href="feedback.html">Отзывы</a></li>
+            <li><a href="#" id="logout">Выход</a></li>
+        </ul>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="main-content">
+        <div class="profile-section">
+            <h2>Редактирование профиля</h2>
+            <img id="avatar" src="default-avatar.png" alt="Аватар">
+            <input type="file" id="avatarInput">
+
+            <label for="nickname">Ник</label>
+            <input type="text" id="nickname">
+
+            <label for="userid">ID</label>
+            <input type="text" id="userid" disabled>
+
+            <button id="saveProfile">Сохранить</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

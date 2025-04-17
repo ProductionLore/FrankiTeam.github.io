@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Стили для отзывов */
+        .review {
+            background-color: #2c3e50; /* Слушаем основной фон страницы */
+            border: 1px solid #444;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .review-author {
+            color: #ecf0f1; /* Цвет авторов в светлом варианте */
+            font-size: 16px;
+        }
+
+        .review-rating {
+            color: #f39c12; /* Звезды */
+            font-size: 16px;
+        }
+
+        .review-text {
+            font-size: 14px;
+            color: #ecf0f1; /* Цвет текста отзыва */
+            margin-top: 10px;
+        }
+
+        .main-content {
+            margin-left: 260px;
+            padding: 20px;
+            background-color: #2c3e50; /* Общий фон для контента */
+        }
+
+        /* Подключение стилей для отзывов в общий стиль страницы */
+        .feedback-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #34495e; /* Добавлен тот же фон для контейнера */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Кнопка открытия меню -->
+    <button class="sidebar-toggle">☰</button>
+
+    <!-- Боковая менюшка -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="Profil.html">Профиль</a></li>
+            <li><a href="Settings.html">Настройки</a></li>
+            <li><a href="Download.html">Загрузки</a></li>
+            <li><a href="feedback.html">Отзывы</a></li>
+            <li><a href="#" id="logout">Выход</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="feedback-container">
+            <h1>Отзывы пользователей</h1>
+
+            <!-- Множество отзывов -->
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">MoreSwag🧊🌇</span>
+        <span class="review-rating">⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Сначала вообще ничего не грузилось, думал всё, пиздец,наебали. Но потом пошла установка, теперь всё норм, Спасибо FrankiTeam.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">Monkey</span>
+        <span class="review-rating">⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Пару раз словил краш при запуске самой игры, но в целом всё по кайфу. Надеюсь, пофиксят трабл.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">el deccal</span>
+        <span class="review-rating">⭐⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Поначалу лоадер просто висел. Подумал, опять танцы с бубном. Но нет, поставил на ночь и на утро скачалось. Сейчас всё чётко.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">Jogging hard</span>
+        <span class="review-rating">⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Лоадер выносил мозг... уже собирался писать что они пиздаболы. Но потом пришёл фикс, и теперь без претензий.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">Banok GEHNN</span>
+        <span class="review-rating">⭐</span>
+    </div>
+    <p class="review-text">Жду помощи по лоадеру! Уже второй день ничего не запускается :(</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">Sanek</span>
+        <span class="review-rating">⭐⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Были траблы, да. Но теха помогли, теперь всё летает. Спасибо FrankiTeam!</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">Крушитель</span>
+        <span class="review-rating">⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Иногда проседает сильно фпс на начальном острове, но когда начинается катка — дропы проадают. Надеюсь, оптимизируют ещё.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">E M P T Y</span>
+        <span class="review-rating">⭐⭐</span>
+    </div>
+    <p class="review-text">Лоадер жутко капризный, то запускается, то нет. Уже задолбался, честно.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">meow luxxaqe 🌸</span>
+        <span class="review-rating">⭐⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">По началу всё крашилось, но обновили — теперь кайфую. Уважение команде 👌</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">Tulbure Anatolie</span>
+        <span class="review-rating">⭐</span>
+    </div>
+    <p class="review-text">Застрял на загрузке. Уже писал в поддержку, надеюсь, помогут.</p>
+</div>
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">RedFrost</span>
+        <span class="review-rating">⭐⭐</span>
+    </div>
+    <p class="review-text">Не пойму, чё не так... Лоадер не хочет запускаться. Уже весь мозг себе сломал. Жду помощи от саппорта.</p>
+</div>
+
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">St4tic</span>
+        <span class="review-rating">⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">При загрузке FrankiMobile были траблы, но сейчас юзаю без проблем. Rodrigers помог, спасибо 🙌</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">пельмень убийца</span>
+        <span class="review-rating">⭐⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Катки летают, фпс норм. Один раз крашнуло, но больше не повторялось. Пока устраивает.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">!darktim</span>
+        <span class="review-rating">⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Все круто, но установщик какой-то лютый... Нервов попортил. Надеюсь, доработают.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">VLAD 228</span>
+        <span class="review-rating">⭐⭐⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Запустил с первого раза, вообще без проблем. Видимо, мне просто повезло 😎</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">RAZOR</span>
+        <span class="review-rating">⭐⭐</span>
+    </div>
+    <p class="review-text">Лоадер как будто живёт своей жизнью... то заходит, то зависает. Пока не юзабельно.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">realCringe</span>
+        <span class="review-rating">⭐⭐⭐</span>
+    </div>
+    <p class="review-text">Проблемы были, но теха связались, помогли. Всё равно жду фиксы при запуск.</p>
+</div>
+
+<div class="review">
+    <div class="review-header">
+        <span class="review-author">🔥 V A K U U M 🔥</span>
+        <span class="review-rating">⭐⭐⭐</span>
+    </div>
+    <p class="review-text">ОООООЧЕНЬ ДОЛГАЯ ЗАГРУЗКА БЫЛА,ПРОСТО ПИЗДЕЦ(ИНЕТ У МЕНЯ АХУЕННЫЙ!!Но к счатсья всё работает</p>
+</div>
+        <div class="feedback-container">
+            <h2>Отзывы писать в тг @RomaRodrigers</h2>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
